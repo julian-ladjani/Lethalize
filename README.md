@@ -13,4 +13,4 @@ You will likely want to uninstall MelonLoader if you are swapping to BepInEx.
 # Install MoreCompany
 This also installs BepInEx
 
-`powershell -nop -ExecutionPolicy Bypass -c "Invoke-Command -ScriptBlock ([scriptblock]::Create([System.Text.Encoding]::UTF8.GetString((New-Object Net.WebClient).DownloadData('https://github.com/KrystilizeNevaDies/Lethalize/releases/download/scripts-install-morecompany-0.0.1/Install-MoreCompany.ps1')))) -ArgumentList @('-morecompany','1.1.1')"`
+`powershell -nop -ExecutionPolicy Bypass -c "Invoke-Command -ScriptBlock ([scriptblock]::Create([System.Text.Encoding]::UTF8.GetString((New-Object Net.WebClient).DownloadData('https://github.com/KrystilizeNevaDies/Lethalize/releases/download/scripts-install-morecompany-0.0.2/Install-MoreCompany.ps1')))) -ArgumentList @('-morecompany','1.1.1')"`
